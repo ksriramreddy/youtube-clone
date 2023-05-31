@@ -300,9 +300,6 @@ i{
         background-color: white;
         width: 100%;
     }
-    .logo{
-        width:100%;
-    {
     .minivindow{
         display: none;
     }
@@ -310,7 +307,7 @@ i{
         width: 25%;
         justify-content: center;
     }
-    .header>.header3>.minivindow>i{
-      display:none;
-      }
+    .logo{
+        width: 100%;
+    }
 }
