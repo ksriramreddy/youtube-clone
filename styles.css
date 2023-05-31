@@ -310,7 +310,7 @@ i{
         width: 25%;
         justify-content: center;
     }
-    .header>.header3>i{
+    .header>.header3>.minivindow>i{
       display:none;
       }
 }
