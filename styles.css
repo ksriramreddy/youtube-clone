@@ -310,5 +310,7 @@ i{
         width: 25%;
         justify-content: center;
     }
-
+    .header>.header3>i{
+      display:none;
+      }
 }
