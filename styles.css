@@ -290,6 +290,7 @@ i{
     }
     .main{
         flex-direction: column-reverse;
+        margin-left: 25px;
     }
     .sidebar{
         display: flex;
@@ -299,6 +300,9 @@ i{
         background-color: white;
         width: 100%;
     }
+    .logo{
+        width:100%;
+    {
     .minivindow{
         display: none;
     }
