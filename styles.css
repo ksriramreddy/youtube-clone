@@ -337,4 +337,7 @@ i{
     .logo{
         width: 100%;
     }
+    .main{
+        position:static;
+    }
 }
