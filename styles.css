@@ -128,7 +128,7 @@ i{
     position: fixed;
 }
 .sidebar{
-    width: 24%;
+    width: 30%;
     color: rgb(63, 62, 62);
     /* background-color: aquamarine; */
     overflow-y: scroll;
@@ -220,7 +220,7 @@ i{
     overflow-y: scroll;
 }
 ::-webkit-scrollbar{
-    width: .9em;
+    width: 0em;
 }
 ::-webkit-scrollbar-track{
     width: .5em;
@@ -290,7 +290,13 @@ i{
         display: none;
     }
 }
-@media(max-width:1000px){
+@media (min-width:1000px){
+    .videos{
+        grid-template-columns: repeat(4,1fr);
+    }
+}
+
+@media(max-width:1220px){
     .sidetext{
         display: none;
     }
@@ -299,6 +305,9 @@ i{
     }
     .header > .header1 >.menudiv >i{
         display: none;
+    }
+    .sidebar{
+        width: 25%;
     }
 }
 
